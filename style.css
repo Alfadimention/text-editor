@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(18, 17, 17);
+}
+
+.Editor {
+    background-color: rgb(18, 17, 17);
+    border: 5px solid burlywood;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+h1 {
+    color: burlywood;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(18, 17, 17);
+    color: burlywood;
+    border-color: burlywood;
+    align-items: center;
+    position: relative;
+    left: 170px;
+}
+
+textarea {
+    background-color: rgb(31, 29, 29);
+    color: burlywood;
+    font: "arial";
+    font-size: 16px;
+    font-weight: ""; /*specially designed for "bold"*/
+    font-style: ""; /*specially designed for "italic"*/
+    text-transform: lowercase;
+    text-align: left;
+    width: 500px;
+    height: 300px;
+    resize: both; /*Allows resizing*/
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
